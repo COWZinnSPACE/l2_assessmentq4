@@ -1,3 +1,4 @@
+// when button A is pressed than a light and a buzzer will go off 
 input.onButtonPressed(Button.A, function () {
     while (true) {
         pins.digitalWritePin(DigitalPin.P0, 1)
